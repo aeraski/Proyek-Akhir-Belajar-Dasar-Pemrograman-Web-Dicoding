@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta charset="utf-8" />
+    <title>Profil Komi San - Komi Can't Communicate</title>
+
+    <!-- styles saya -->
+    <link rel="stylesheet" href="assets/styles/styles.css">
+    <link rel="icon" type="image/png" href="assets/image/icon komi.jpg">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="jumbotron">
+            <h1>Komi Shouko</h1>
+            <p>Karakter utama dalam anime "Komi Can't Communicate" seorang gadis cantik yang memiliki kesulitan dalam berkomunikasi.</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#profil">Profil</a></li>
+                <li><a href="#cerita">Cerita</a></li>
+                <li><a href="#gambar">Gambar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!--Konten Artikel-->
+        <section id="content">
+            <article id="profil" class="card">
+                <h2>Profil</h2>
+                <img src="assets/image/komi1.jpg" alt="Profil Komi San" class="featured-image" />
+                <p>Komi Shouko, atau yang lebih dikenal sebagai Komi San, adalah seorang siswi SMA yang memiliki gangguan komunikasi sosial, yang membuatnya sulit untuk berbicara dengan orang lain.</p>
+                <p>Meskipun demikian, Komi San memiliki kebaikan dan kecantikan yang luar biasa, dan dia bertekad untuk mengatasi ketidakmampuannya dalam berkomunikasi.</p>
+            </article>
+        
+            <article id="cerita" class="card">
+                <h2>Cerita</h2>
+                <p>Anime "Komi Can't Communicate" mengikuti perjalanan Komi San dalam mencoba untuk mengatasi gangguan komunikasinya. Dia bertemu dengan Tadano Hitohito, seorang siswa biasa yang bertekad untuk membantu Komi San mencapai tujuannya untuk memiliki 100 teman.</p>
+                <p>Dengan bantuan Tadano dan teman-teman lainnya, Komi San bertemu dengan berbagai karakter unik di sekolahnya dan menghadapi berbagai situasi lucu dan mengharukan dalam usahanya untuk berkomunikasi dengan orang lain.</p>
+            </article>
+
+            <article id="gambar" class="card">
+                <h2>Gambar</h2>
+                <p>Berikut adalah beberapa gambar Komi San:</p>
+                <section>
+                    <h3>Komi San di Sekolah</h3>
+                    <img src="assets/image/komi school.jpg" alt="Komi San di Sekolah" class="featured-image" />
+                </section>
+                <section>
+                    <h3>Komi San dan Tadano Hitohito</h3>
+                    <img src="assets/image/komi and tadano.jpg" alt="Komi San dan Tadano Hitohito" class="featured-image" />
+                </section>
+            </article>
+        </section>
+
+        <!--Konten Samping-->
+        <aside>
+            <article class="profile card">
+                <header>
+                    <h2>Komi San</h2>
+                    <p>Gadis dengan gangguan komunikasi sosial</p>
+                </header>
+                <figure>
+                    <img src="assets/image/komi panic.jpg" alt="Komi San Badge">
+                    <figcaption>Komi Shouko</figcaption>
+                </figure>
+                <section>
+                    <h3>Informasi Lainnya</h3>
+                    <table>
+                        <tr>
+                            <th>Umur</th>
+                            <td>17 tahun</td>
+                        </tr>
+                        <tr>
+                            <th>Sekolah</th>
+                            <td>SMA Fujou</td>
+                        </tr>
+                        <tr>
+                            <th>Hobi</th>
+                            <td>Menggambar</td>
+                        </tr>
+                        <tr>
+                            <th>Impian</th>
+                            <td>Memiliki 100 teman</td>
+                        </tr>
+                    </table>
+                </section>
+            </article>
+        </aside>
+    </main>
+  
+    <footer>
+        <p>&copy; 2024, Willy Syachputra</p>
+        <button id="back-to-top">↑</button>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Script untuk back to top button
+        window.onscroll = function() {
+            var button = document.getElementById("back-to-top");
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                button.style.display = "block";
+            } else {
+                button.style.display = "none";
+            }
+        };
+
+        document.getElementById("back-to-top").onclick = function() {
+            window.scrollTo({top: 0, behavior: 'smooth'});
+        };
+    </script>
+</body>
+</html>

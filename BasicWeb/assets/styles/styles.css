@@ -1,0 +1,132 @@
+/* Aturan umum */
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #595289;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Navigation */
+nav {
+  background-color: #f8f9fa;
+  padding: 10px 0;
+  position: sticky; /* Mengatur posisi sticky */
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); /* Bayangan untuk menonjolkan */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Memposisikan item di tengah */
+}
+
+nav ul li {
+  margin-right: 20px;
+  padding: 10px 20px; /* Menambahkan padding di dalam kotak */
+  border: 1px solid #4e0483; /* Menambahkan border hitam */
+  border-radius: 8px; /* Membuat sudut kotak agak melengkung */
+  background-color: #fff; /* Warna latar belakang kotak */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan */
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #7705a4b3;
+}
+
+/* Main content */
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+#content {
+  width: 65%;
+}
+
+aside {
+  width: 30%;
+  position: sticky;
+  top: 20px;
+}
+
+/* Card styling */
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  border: 1px solid #000; /* Garis tepi hitam */
+}
+
+/* Profile section */
+.profile {
+  text-align: center;
+}
+
+.profile img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.profile table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.profile table th, .profile table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.profile table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  background-color: #595289;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Back to top button */
+#back-to-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  background-color: #595289;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#back-to-top:hover {
+  background-color: #333;
+}
